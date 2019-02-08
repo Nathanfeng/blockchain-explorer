@@ -1,5 +1,5 @@
 #Blockchain-Explorer
-![Alt text](./public/blockchainExplorer?raw=true "BlockchainExplorer")
+![Alt text](/public/blockchainExplorer?raw=true "BlockchainExplorer")
 ## Available Scripts
 
 In the project directory, you can run:
