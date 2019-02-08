@@ -1,6 +1,5 @@
 #Blockchain-Explorer
-Screen Shot 2019-02-07 at 7.38.20 PM
-
+![Alt text](./public/blockchainExplorer?raw=true "BlockchainExplorer")
 ## Available Scripts
 
 In the project directory, you can run:
