@@ -14,6 +14,6 @@ const TransactionSummaryRow = ({
       <Table.Cell>{to}</Table.Cell>
     <Table.Cell>{parseInt(value).toLocaleString()}</Table.Cell>
     </Table.Row>
-  );
+);
 
 export default TransactionSummaryRow;
