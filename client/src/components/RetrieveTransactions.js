@@ -25,7 +25,7 @@ class RetrieveTransactions extends Component {
 
   getAccountBalance = async(address) => {
     try{
-      //api call to retrieve account information
+      //api call to retrieve account balance
       const apiKey = 'WQAG63JD3R5IH2QDQZBZIKPPGJVH9SZYCI';
       const url = `https://api.etherscan.io/api?module=account&action=balance&address=${address}&tag=latest&apikey=${apiKey}`;
       const info = await fetch(url);
@@ -108,14 +108,15 @@ class RetrieveTransactions extends Component {
                 onChange={this.onAddressFieldChange}
               />
               <button className="button">Submit</button>
-          </form>
-          {this.state.error && <p className="form__error">{this.state.error}</p>}
-          {
-            accountBalanceInfo && <AccountBalance
-              address={address}
-              accountBalanceInfo={accountBalanceInfo}
-            />
-          }
+            </form>
+            {this.state.error && <p className="form__error">{this.state.error}</p>}
+
+            {
+              accountBalanceInfo && <AccountBalance
+                address={address}
+                accountBalanceInfo={accountBalanceInfo}
+              />
+            }
           </div>
         </div>
 

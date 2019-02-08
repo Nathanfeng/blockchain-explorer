@@ -1,7 +1,5 @@
-#Blockchain-Explorer
-![Blockchain Explorer](https://user-images.githubusercontent.com/21106812/52453131-fbc6e600-2b13-11e9-9221-21e5ed01c27c.png)
-
 ## Blockchain Explorer
+![Blockchain Explorer](https://user-images.githubusercontent.com/21106812/52453131-fbc6e600-2b13-11e9-9221-21e5ed01c27c.png)
 
 This is a frontend tool that allows you find the account balance and associated transactions of an Ethereum address.
 
