@@ -12,7 +12,7 @@ const TransactionSummaryRow = ({
     <Table.Row>
       <Table.Cell>{from}</Table.Cell>
       <Table.Cell>{to}</Table.Cell>
-    <Table.Cell>{parseInt(value).toLocaleString()}</Table.Cell>
+      <Table.Cell>{parseInt(value).toLocaleString()}</Table.Cell>
     </Table.Row>
 );
 
